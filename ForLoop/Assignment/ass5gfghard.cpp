@@ -1,7 +1,7 @@
 #include<iostream>
 using namespace std;
 
-string Count(string str){
+void countString(string str){
     int upper =0,lower=0,digits=0,special_char=0;
     for(int i=0;i<str.length();i++)
     {
@@ -22,8 +22,9 @@ cout<<"Special charcters:"<<special_char<<endl;
 }
 int main(){
      string str;
-     cout<<"Enter characters:"<<endl;
-     cin>>str;
-     cout<<Count(str)<<endl;
+     cout<<"Enter string:"<<endl;
+    //  str = cin.get();
+     getline(cin,str);
+     countString(str);
      return 0;
 }

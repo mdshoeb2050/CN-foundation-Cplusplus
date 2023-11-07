@@ -19,3 +19,5 @@ dddd dddrr      32#@$sdfgfggg
 15   // output 
 
 */
+
+/* backspace bhi count hoga */
