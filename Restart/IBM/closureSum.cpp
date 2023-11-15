@@ -5,6 +5,7 @@ void closureSum(int arr[], int n){
     int i=0, j=n-1;
     
     // cout<<"value of i: "<<i<<" value of  j :"<<j<<endl;
+
     //creating an array to store each pair 
     int res[n];
     while(i<=j){
@@ -13,7 +14,7 @@ void closureSum(int arr[], int n){
            res[i]=arr[i];
            break;
        }
-       res[i]=arr[i]*10+arr[j];
+       res[i]=(arr[i]*10) + arr[j];
        i++;
        j--;
     }
@@ -35,9 +36,10 @@ void closureSum(int arr[], int n){
     cout<<"closure sum is :"<<sum<<endl;
 }
 
+
 int main(){
-    // int arr[]={6,5,8,3};
-    int arr[]={6,7,8};
+    int arr[]={6,5,8,3};
+    // int arr[]={6,7,8};
     int size = sizeof(arr)/sizeof(arr[0]);
     // cout<<size<<endl;
     // cout<<"Enter a number :"<<endl;
