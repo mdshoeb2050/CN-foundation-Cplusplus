@@ -18,7 +18,7 @@ void printDiagonalSum(int matrix[][MAX], int size){
     }
     cout<<"Principal Diagonal Sum :"<<p<<endl;
     cout<<"Secondary Diagonal Sum :"<<s<<endl;
-    
+
     //calculating absolute diffrence 
     cout<<"Digonal sum Difference is :"<<abs(s-p)<<endl;
 }
